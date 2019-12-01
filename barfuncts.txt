@@ -1,0 +1,27 @@
+--- Sorted by name of attribute ---
+df.groupby('platforms').size().plot(kind='bar')
+
+--- Sorted by count ---
+df['platforms'].value_counts().plot(kind='bar')
+
+--------------------------------------
+
+df = steam
+yearly = df.groupby(df.platforms).agg('count').appid
+plt.bar(yearly.index, yearly)
+
+df = steam
+df['release_date'] = pd.to_datetime(df['release_date'])
+yearly = df.groupby(df.release_date.dt.year).agg('count').appid
+
+min_year = 2006
+max_year = 2020
+plt.figure(figsize=(8,6))
+yearly_part = yearly[yearly.index >= min_year]
+plt.bar(yearly_part.index, yearly_part)
+plt.title(f'Total games released in {min_year}-{max_year} years')
+plt.xlabel('Year')
+plt.ylabel('Total games')
+
+---------
+bins = np.linspace(0, 2, 40)
