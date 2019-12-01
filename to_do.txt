@@ -1,0 +1,22 @@
+https://seaborn.pydata.org/tutorial/categorical.html
+
+import seaborn as sns
+import matplotlib.pyplot as plt
+sns.set(style="ticks", color_codes=True)
+
+Categorical scatterplots:
+
+    stripplot() (with kind="strip"; the default)
+    swarmplot() (with kind="swarm")
+
+Categorical distribution plots:
+
+    boxplot() (with kind="box")
+    violinplot() (with kind="violin")
+    boxenplot() (with kind="boxen")
+
+Categorical estimate plots:
+
+    pointplot() (with kind="point")
+    barplot() (with kind="bar")
+    countplot() (with kind="count")
