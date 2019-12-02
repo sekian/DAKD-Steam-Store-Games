@@ -20,3 +20,7 @@ Categorical estimate plots:
     pointplot() (with kind="point")
     barplot() (with kind="bar")
     countplot() (with kind="count")
+
+---
+>>> np.linspace(2.0, 3.0, num=5)
+array([2.  , 2.25, 2.5 , 2.75, 3.  ])
