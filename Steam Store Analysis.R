@@ -1,6 +1,8 @@
 steam = read.csv('D:/FIB/MIRI/DAKD/DAKD Project/steam-clean.csv')
 
 ## PCA OF BASE COLUMNS ##
+library(Rcmdr)
+library(RcmdrPlugin.FactoMineR)
 
 steam.PCA <- steam[, c("appid", "required_age", "achievements", "positive_ratings", 
                        "negative_ratings", "average_playtime", "owners", "price", "release_year", "linux", "mac")]
