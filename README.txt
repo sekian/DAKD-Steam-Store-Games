@@ -1,16 +1,20 @@
 The project contains the following files:
 
-DAKD_Report.pdf (The final course essay)
+The final course essay:
+  DAKD_Report.pdf
 
-Steam Store Analysis.ipynb (Python Jupyter Notebook; Contains the code for the plots and the analysis)
+Python Jupyter Notebooks:
+  Steam Store Analysis.ipynb (code for the plots and the analysis)
+  Steam Store Classify.ipynb (code for the classification and regression)
 
-Steam Store Classify.ipynb (Python Jupyter Notebook; Contains the code for the classification and regression of the price)
+R Script:
+  Steam Store Analysis.R (code for PCA biplots and neural network)
 
-Steam Store Analysis.R (R Script; Contains the PCA Biplots code and Neural Network)
+Plots:
+  images (Folder containing the plots as pdf files)
 
-images (Folder containing the plots as pdf files)
-
-steam.csv (Starting dataset)
-steam-clean.csv (Cleaned dataset)
-steam-clean-r.csv (Further cleaned dataset)
+Dataset:
+  steam.csv (Original dataset)
+  steam-clean.csv (Cleaned dataset)
+  steam-clean-r.csv (Further cleaned dataset)
 
