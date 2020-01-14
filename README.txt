@@ -1,6 +1,6 @@
 The project contains the following files:
 
-The final course essay:
+Final course essay:
   DAKD_Report.pdf
 
 Python Jupyter Notebooks:
