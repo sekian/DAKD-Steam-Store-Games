@@ -1,7 +1,7 @@
 The project contains the following files:
 
 Final course essay:
-  DAKD_Report.pdf
+  BenaliA.pdf
 
 Python Jupyter Notebooks:
   Steam Store Analysis.ipynb (code for the plots and the analysis)
